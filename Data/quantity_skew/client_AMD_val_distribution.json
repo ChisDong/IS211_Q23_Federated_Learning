@@ -1,0 +1,13 @@
+{
+    "samples": 696,
+    "unique_lesions": 512,
+    "class_distribution": {
+        "nv": 452,
+        "mel": 82,
+        "bkl": 72,
+        "bcc": 50,
+        "akiec": 24,
+        "vasc": 11,
+        "df": 5
+    }
+}

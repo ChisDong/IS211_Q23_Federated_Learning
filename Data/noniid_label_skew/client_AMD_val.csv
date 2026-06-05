@@ -1,0 +1,71 @@
+lesion_id,image_id,dx,dx_type,age,sex,localization
+HAM_0002960,ISIC_0024994,df,consensus,40.0,female,lower extremity
+HAM_0003182,ISIC_0029028,mel,histo,85.0,female,trunk
+HAM_0003182,ISIC_0027125,mel,histo,85.0,female,trunk
+HAM_0002534,ISIC_0024898,mel,histo,80.0,male,lower extremity
+HAM_0002534,ISIC_0029538,mel,histo,80.0,male,lower extremity
+HAM_0007538,ISIC_0031941,mel,histo,55.0,male,trunk
+HAM_0007538,ISIC_0024315,mel,histo,55.0,male,trunk
+HAM_0001202,ISIC_0031517,mel,histo,70.0,female,upper extremity
+HAM_0001202,ISIC_0028022,mel,histo,70.0,female,upper extremity
+HAM_0006433,ISIC_0029370,mel,histo,85.0,female,upper extremity
+HAM_0006433,ISIC_0031958,mel,histo,85.0,female,upper extremity
+HAM_0005642,ISIC_0027659,mel,histo,70.0,male,back
+HAM_0005642,ISIC_0030223,mel,histo,70.0,male,back
+HAM_0004397,ISIC_0030681,mel,histo,55.0,female,neck
+HAM_0004397,ISIC_0027327,mel,histo,55.0,female,neck
+HAM_0004397,ISIC_0025589,mel,histo,55.0,female,neck
+HAM_0000048,ISIC_0033902,mel,histo,75.0,male,lower extremity
+HAM_0000048,ISIC_0032774,mel,histo,75.0,male,lower extremity
+HAM_0005777,ISIC_0033325,mel,histo,60.0,male,chest
+HAM_0005777,ISIC_0034208,mel,histo,60.0,male,chest
+HAM_0000282,ISIC_0031709,mel,histo,65.0,male,neck
+HAM_0005409,ISIC_0032531,mel,histo,45.0,male,back
+HAM_0005409,ISIC_0032970,mel,histo,45.0,male,back
+HAM_0004754,ISIC_0033198,mel,histo,65.0,male,back
+HAM_0004754,ISIC_0032790,mel,histo,65.0,male,back
+HAM_0004754,ISIC_0033245,mel,histo,65.0,male,back
+HAM_0002617,ISIC_0033957,mel,histo,60.0,male,upper extremity
+HAM_0002617,ISIC_0034172,mel,histo,60.0,male,upper extremity
+HAM_0002617,ISIC_0033393,mel,histo,60.0,male,upper extremity
+HAM_0000176,ISIC_0032862,mel,histo,65.0,male,upper extremity
+HAM_0000176,ISIC_0033073,mel,histo,65.0,male,upper extremity
+HAM_0000176,ISIC_0033696,mel,histo,65.0,male,upper extremity
+HAM_0003176,ISIC_0028148,mel,histo,85.0,male,chest
+HAM_0003617,ISIC_0029502,mel,histo,50.0,female,upper extremity
+HAM_0005846,ISIC_0024459,mel,histo,80.0,male,back
+HAM_0000433,ISIC_0031554,mel,histo,55.0,male,back
+HAM_0000433,ISIC_0025472,mel,histo,55.0,male,back
+HAM_0003176,ISIC_0030756,mel,histo,85.0,male,chest
+HAM_0002534,ISIC_0027620,mel,histo,80.0,male,lower extremity
+HAM_0004281,ISIC_0028965,mel,histo,50.0,male,trunk
+HAM_0007188,ISIC_0031543,mel,histo,60.0,female,upper extremity
+HAM_0000856,ISIC_0028537,mel,histo,35.0,male,back
+HAM_0000282,ISIC_0027155,mel,histo,65.0,male,neck
+HAM_0007238,ISIC_0031494,mel,histo,55.0,male,upper extremity
+HAM_0007238,ISIC_0028306,mel,histo,55.0,male,upper extremity
+HAM_0001976,ISIC_0026586,mel,histo,85.0,male,upper extremity
+HAM_0001976,ISIC_0025732,mel,histo,85.0,male,upper extremity
+HAM_0000856,ISIC_0029885,mel,histo,35.0,male,back
+HAM_0005986,ISIC_0029574,mel,histo,60.0,male,back
+HAM_0004936,ISIC_0025573,mel,histo,80.0,male,chest
+HAM_0004936,ISIC_0029705,mel,histo,80.0,male,chest
+HAM_0002109,ISIC_0028897,mel,histo,75.0,female,back
+HAM_0002576,ISIC_0031368,mel,histo,55.0,male,lower extremity
+HAM_0003520,ISIC_0026516,mel,histo,45.0,female,abdomen
+HAM_0003520,ISIC_0025724,mel,histo,45.0,female,abdomen
+HAM_0002576,ISIC_0025414,mel,histo,55.0,male,lower extremity
+HAM_0006832,ISIC_0028915,mel,histo,50.0,male,upper extremity
+HAM_0006832,ISIC_0029652,mel,histo,50.0,male,upper extremity
+HAM_0006832,ISIC_0031295,mel,histo,50.0,male,upper extremity
+HAM_0004428,ISIC_0025317,mel,histo,80.0,male,upper extremity
+HAM_0004428,ISIC_0026420,mel,histo,80.0,male,upper extremity
+HAM_0003530,ISIC_0030929,mel,histo,55.0,female,upper extremity
+HAM_0001910,ISIC_0028968,mel,histo,55.0,male,upper extremity
+HAM_0001910,ISIC_0024739,mel,histo,55.0,male,upper extremity
+HAM_0005358,ISIC_0026982,nv,follow_up,50.0,male,lower extremity
+HAM_0006893,ISIC_0027084,akiec,histo,65.0,female,lower extremity
+HAM_0001337,ISIC_0032455,akiec,histo,80.0,male,upper extremity
+HAM_0005505,ISIC_0024450,akiec,histo,50.0,male,upper extremity
+HAM_0005505,ISIC_0031743,akiec,histo,50.0,male,upper extremity
+HAM_0005505,ISIC_0026522,akiec,histo,50.0,male,upper extremity

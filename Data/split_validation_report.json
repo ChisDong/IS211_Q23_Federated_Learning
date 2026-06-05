@@ -1,0 +1,14 @@
+{
+    "iid": {
+        "image_overlap_with_global_test": 0,
+        "lesion_overlap_with_global_test": 0
+    },
+    "noniid_label_skew": {
+        "image_overlap_with_global_test": 0,
+        "lesion_overlap_with_global_test": 0
+    },
+    "quantity_skew": {
+        "image_overlap_with_global_test": 0,
+        "lesion_overlap_with_global_test": 0
+    }
+}
