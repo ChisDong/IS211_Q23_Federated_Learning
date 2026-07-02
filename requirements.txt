@@ -1,0 +1,11 @@
+torch
+torchvision
+safetensors
+huggingface_hub
+scikit-learn
+matplotlib
+pandas
+numpy
+openpyxl
+tqdm
+Pillow
