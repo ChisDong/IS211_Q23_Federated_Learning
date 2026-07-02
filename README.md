@@ -69,13 +69,17 @@ Thuật toán hoạt động bằng cách phân tách cấu trúc mạng Neural:
 
 1. **Backbone (Feature Extractor)**:
    Sử dụng trọng số tổng hợp mức Client $w_k$:
-   $$w_k \propto \left(\frac{n_k}{N}\right)^\beta \times \text{Reliability}_k \times \text{SampleConfidence}_k \times \text{RareFactor}_k$$
-   Trong đó, $\text{Reliability}_k$ được tính toán từ các số liệu Conformal Prediction trên tập validation độc lập của client đó (phạt các client có tập dự đoán quá lớn hoặc độ phủ thực tế lệch xa độ phủ mục tiêu $1-\alpha$).
+   ```math
+   w_k \propto \left(\frac{n_k}{N}\right)^\beta \times \text{Reliability}_k \times \text{SampleConfidence}_k \times \text{RareFactor}_k
+   ```
+   Trong đó, $\text{Reliability}\_k$ được tính toán từ các số liệu Conformal Prediction trên tập validation độc lập của client đó (phạt các client có tập dự đoán quá lớn hoặc độ phủ thực tế lệch xa độ phủ mục tiêu $1-\alpha$).
 
 2. **Classifier Head (Lớp tuyến tính cuối)**:
    Tổng hợp trọng số riêng biệt cho từng lớp bệnh $c$:
-   $$\alpha_{k,c} \propto \text{Reliability}_{k,c} \times \text{ClassConfidence}_{k,c} \times \text{RiskWeight}_c$$
-   Trong đó, $\text{Reliability}_{k,c}$ đo lường khả năng dự đoán đúng riêng cho lớp $c$ của client $k$ (kết hợp Recall, F1, độ bao phủ conformal theo lớp). Điều này giúp bảo vệ hiệu năng phân loại các bệnh hiếm/nguy hiểm ngay cả khi client bị label skew nghiêm trọng.
+   ```math
+   \alpha_{k,c} \propto \text{Reliability}_{k,c} \times \text{ClassConfidence}_{k,c} \times \text{RiskWeight}_c
+   ```
+   Trong đó, $\text{Reliability}\_{k,c}$ đo lường khả năng dự đoán đúng riêng cho lớp $c$ của client $k$ (kết hợp Recall, F1, độ bao phủ conformal theo lớp). Điều này giúp bảo vệ hiệu năng phân loại các bệnh hiếm/nguy hiểm ngay cả khi client bị label skew nghiêm trọng.
 
 ---
 
